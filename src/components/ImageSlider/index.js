@@ -9,11 +9,11 @@ export default function ImageSlider({ items }) {
 	const settings = {
 		infinite: true,
 		speed: 500,
-        arrows: false,
+		arrows: false,
 		rows: 2,
 		slidesPerRow: 4,
 		slidesToShow: 1,
-        slidesToScroll: 4,
+		slidesToScroll: 4,
 		responsive: [
 			{
 				breakpoint: 824,
@@ -54,16 +54,15 @@ export default function ImageSlider({ items }) {
 		]
 	};
 
-    return (
+	return (
 		<Slider { ...settings }>
-            { items.map( item => (
-                <div key={ item.id }>
-                    <Wrap>
-                        <ImageFrame alt={ item.image } src={ item.image } />
-                    </Wrap>
-                </div>
-            ) ) }
-
+			{ items.map( item => (
+				<div key={ item.id }>
+					<Wrap>
+						<ImageFrame alt={ item.image } src={ item.image } />
+					</Wrap>
+				</div>
+			) ) }
 		</Slider>
 	);
 }
@@ -71,8 +70,8 @@ export default function ImageSlider({ items }) {
 ImageSlider.propTypes = {
 	items: PropTypes.arrayOf(
 		PropTypes.shape({
-            id: PropTypes.number.isRequired,
-            image: PropTypes.string.isRequired,
+			id: PropTypes.number.isRequired,
+			image: PropTypes.string.isRequired,
 		}),
 	).isRequired,
 };

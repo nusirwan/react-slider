@@ -4,7 +4,7 @@ export const Wrap = styled.div`
 	width: 100%;
 	height: 100%;
 `;
-Wrap.displayName = "Wrap";
+Wrap.displayName = 'Wrap';
 
 export const Image = styled.img`
 	width: 100%;
@@ -13,4 +13,4 @@ export const Image = styled.img`
 	object-position: center;
 	vertical-align: middle;
 `;
-Image.displayName = "Image";
+Image.displayName = 'Image';

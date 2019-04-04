@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Image, Wrap } from "./styles";
+import { Image, Wrap } from './styles';
 
 export default function ImageFrame({ alt, src }) {
 

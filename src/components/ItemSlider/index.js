@@ -1,16 +1,16 @@
-import React from "react";
+import React from 'react';
 import PropTypes from 'prop-types';
 
-import ImageFrame from "../ImageFrame";
+import ImageFrame from '../ImageFrame';
 
 import {
 	Link,
 	Meta,
 	Title,
 	Wrap,
-} from "./styles";
+} from './styles';
 
-export default function BoxHover( props ) {
+export default function ItemSlider( props ) {
 
 	return (
 		<Wrap>
@@ -24,7 +24,7 @@ export default function BoxHover( props ) {
 	);
 }
 
-BoxHover.propTypes = {
+ItemSlider.propTypes = {
 	image: PropTypes.string.isRequired,
 	link: PropTypes.string.isRequired,
 	title: PropTypes.string.isRequired,

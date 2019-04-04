@@ -6,6 +6,9 @@ const { breakpoints, contentWidth } = theme;
 
 export default styled.section`
 	display: flex;
+	height: 100vh;
+	flex-direction: column;
+	justify-content: center;
 	margin-right: 1rem;
 	margin-left: 1rem;
 
@@ -14,7 +17,7 @@ export default styled.section`
 		margin-left: 2rem;
 	}
 
-	@media ( ${ breakpoints.laptopLarge } ) {
+	@media ( ${ breakpoints.laptop } ) {
 		max-width: ${ contentWidth.laptop };
 		margin-right: auto;
 		margin-left: auto;

@@ -6,6 +6,9 @@ const { breakpoints, contentWidth } = theme;
 
 export default styled.section`
 	display: flex;
+	height: 100vh;
+	flex-direction: column;
+	justify-content: center;
 	margin-right: 1rem;
 	margin-left: 1rem;
 

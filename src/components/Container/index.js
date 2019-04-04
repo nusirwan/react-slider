@@ -17,7 +17,7 @@ export default styled.section`
 		margin-left: 2rem;
 	}
 
-	@media ( ${ breakpoints.laptopLarge } ) {
+	@media ( ${ breakpoints.laptop } ) {
 		max-width: ${ contentWidth.laptop };
 		margin-right: auto;
 		margin-left: auto;

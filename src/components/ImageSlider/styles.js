@@ -15,5 +15,10 @@ Slider.displayName = 'Slider';
 export const Wrap = styled.div`
 	position: relative;
 	height: 100%;
+	cursor: grab;
+
+	&:active {
+		cursor: grabbing;
+	}
 `;
 Wrap.displayName = 'Wrap';

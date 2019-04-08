@@ -40,6 +40,38 @@ const Items = [
         id: 7,
         image: `${ Image8 }`,
     },
+    {
+        id: 8,
+        image: `${ Image1 }`,
+    },
+    {
+        id: 9,
+        image: `${ Image2 }`,
+    },
+    {
+        id: 10,
+        image: `${ Image3 }`,
+    },
+    {
+        id: 11,
+        image: `${ Image4 }`,
+    },
+    {
+        id: 12,
+        image: `${ Image5 }`,
+    },
+    {
+        id: 13,
+        image: `${ Image6 }`,
+    },
+    {
+        id: 14,
+        image: `${ Image7 }`,
+    },
+    {
+        id: 15,
+        image: `${ Image8 }`,
+    },
 ]
 
 export default Items;
